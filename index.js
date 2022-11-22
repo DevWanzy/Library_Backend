@@ -28,3 +28,5 @@ app.use("/auth", authRoute);
 const port = process.env.PORT;
 
 http.listen(port, () => console.log(`Server Running at port ${port}`));
+
+console.log("Application Running Well");
